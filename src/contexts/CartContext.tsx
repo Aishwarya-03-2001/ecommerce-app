@@ -28,7 +28,7 @@ interface CartContextType extends CartState {
   clearCart: () => void;
 }
 
-const CartContext = createContext<CartContextType | undefined>(undefined);
+export const CartContext = createContext<CartContextType | undefined>(undefined);
 
 const cartReducer = (state: CartState, action: CartAction): CartState => {
   switch (action.type) {
