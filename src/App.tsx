@@ -5,10 +5,10 @@ import { TooltipProvider } from "@/src/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./contexts/CartContext";
-import Index from "./pages/Index";
-import ProductDetails from "./pages/ProductDetails";
-import Cart from "./pages/Cart";
-import NotFound from "./pages/NotFound"
+import Index from "./screens/Index";
+import ProductDetails from "./screens/ProductDetails";
+import Cart from "./screens/Cart";
+import NotFound from "./screens/NotFound"
 import Navigation from "./components/Navigation";
 
 const queryClient = new QueryClient();
